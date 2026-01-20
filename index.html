@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abdugaffarov Abubakr - Backend Developer | JavaScript, Node.js, Express, MongoDB">
+    <meta name="keywords" content="Portfolio, Backend Developer, Node.js, Express, JavaScript">
+    <meta name="author" content="Abdugaffarov Abubakr">
+    <title>Abdugaffarov Abubakr - Backend Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-text">AB</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Bosh sahifa</a></li>
+                    <li><a href="#about">Men haqimda</a></li>
+                    <li><a href="#skills">Ko'nikmalar</a></li>
+                    <li><a href="#projects">Loyihalar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+                <div class="theme-toggle" id="themeToggle" title="Tun/Kun rejimi">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Abdugaffarov Abubakr</h1>
+                <p class="hero-subtitle">Backend Developer | JavaScript | Node.js | Express</p>
+                <p class="hero-description">
+                    Zamonaviy veb-ilovalari ishlab chiqarishda ixtisoslashgan backend razrabotachisi
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Loyihalarni ko'rish</a>
+                    <a href="#contact" class="btn btn-secondary">Bog'lanish</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://t.me" target="_blank" title="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:email@example.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Salom! Men Abdugaffarov Abubakr, TATU (Tashkent Automobile and Road Construction Institute) 
+                        Dasturiy ta'minot muhandisligi mutaxassisligi talabasi. Backend development-ga ixtisoslashgan 
+                        developer sifatida zamonaviy veb-ilovalarni ishlab chiqish bilan shug'ullanaman.
+                    </p>
+                    <p>
+                        Men JavaScript, Node.js va Express.js kabi texnologiyalarni chuqur o'rganganman. 
+                        MongoDB va PostgreSQL bilan ishlashda tajribam bor. RESTful API-larni dizayn qilish va 
+                        ishlab chiqishda mahir.
+                    </p>
+                    <p>
+                        Mening asosiy maqsadi — xavfsiz, skalerlanuvchi va samarali backend tizimlarini yaratish. 
+                        Freylansda va kichik jamoalarda ishash bilan tajribam bor. Yangi teknologiyalarni o'rganish 
+                        va o'z ko'nikmalarimi doimiy rivojlantirishni yoqtiradim.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>5+</h3>
+                        <p>Loyihalar</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>2+</h3>
+                        <p>Yillik Tajriba</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Texnologiyalar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Ko'nikmalar</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, Async/Await, Promises</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <h3>Express.js</h3>
+                    <p>Web Framework & API Development</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL Database</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>PostgreSQL</h3>
+                    <p>Relational Database</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic HTML</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, Animations</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Frontend Library</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React Native</h3>
+                    <p>Mobile Development</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 65%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mening Loyihalar</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Hammasi</button>
+                <button class="filter-btn" data-filter="api">API</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="bot">Bot</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Online Ticket System API</h3>
+                    <p>Chipta bron qilish sistemasi uchun REST API. Avtentifikatsiya, to'lov integratsiyasi va real-time yangilanishlar bilan.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-globe"></i> Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h3>Blog API</h3>
+                    <p>Maqola yaratish, tahrirlash va o'chirishni qo'llab-quvvatlovchi to'liq funksiyali Blog API.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                        <span>REST</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="api">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Student Management API</h3>
+                    <p>O'quvchilar ma'lumotlarini boshqarish uchun CRUD operatsiyalarini qo'llab-quvvatlovchi API.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Validation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="bot">
+                    <div class="project-image">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram Bot</h3>
+                    <p>Xabar jo'natish, fayl boshqarish va ma'lumotlarni saqlab qolish imkoniyatiga ega bot.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Telegram API</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Mahsulot katalogi, savat va to'lov tizimi bilan to'liq elektron savdo platformasi.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-globe"></i> Live</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Task Manager</h3>
+                    <p>Vazifalarni rejalash va boshqarish uchun zamonaviy single-page ilovasi.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Redux</span>
+                        <span>CSS3</span>
+                        <span>LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-globe"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Ta'lim va Tajriba</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-text">
+                        <h3>Dasturiy Ta'minot Muhandisligi</h3>
+                        <p class="experience-subtitle">TATU (Tashkent Automobile and Road Construction Institute)</p>
+                        <p class="experience-date">2022 - Hozirgi vaqt</p>
+                        <p>Kompyuter ilmlari, veb-ilovalari ishlab chiqish, Backend development, Bazalarni loyihalash</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="experience-text">
+                        <h3>Backend Developer (Freelance)</h3>
+                        <p class="experience-subtitle">Fiverr / Upwork</p>
+                        <p class="experience-date">2023 - Hozirgi vaqt</p>
+                        <p>RESTful API ishlab chiqish, Database dizayn, Backend optimizatsiya</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="experience-text">
+                        <h3>JavaScript Developer</h3>
+                        <p class="experience-subtitle">Freelance Projects</p>
+                        <p class="experience-date">2023 - Hozirgi vaqt</p>
+                        <p>Frontend va Backend JavaScript, Node.js loyihalari, API integratsiya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Bog'lanish</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:abubakr@example.com">abubakr@example.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-telegram"></i>
+                        <h3>Telegram</h3>
+                        <a href="https://t.me/username" target="_blank">@username</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/username" target="_blank">github.com/username</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ism-sharif *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Mavzu *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Xabar *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abdugaffarov Abubakr. Barcha huquqlar himoyalangan.</p>
+            <div class="footer-links">
+                <a href="#home">Bosh sahifa</a>
+                <a href="#about">Men haqimda</a>
+                <a href="#skills">Ko'nikmalar</a>
+                <a href="#projects">Loyihalar</a>
+                <a href="#contact">Aloqa</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

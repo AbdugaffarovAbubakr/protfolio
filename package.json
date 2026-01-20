@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Abdugaffarov Abubakr - Backend Developer Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "dev": "http-server -p 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "backend",
+    "developer",
+    "nodejs",
+    "express",
+    "javascript"
+  ],
+  "author": "Abdugaffarov Abubakr",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
